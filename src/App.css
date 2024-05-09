@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #87b5b5;
+}
+
+.content-editor {
+  max-width: 600px;
+  margin: 1.125rem auto;
+}
+
+.editor-barra {
+  box-sizing: border-box;
+  width: 99%;
+  height: 35.2px;
+  background-color: #4aa3a3;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem;
+}
+
+.barra-text-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.expand {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.expand:hover svg {
+  fill: #57e2b1;
+  stroke: #57e2b1;
+}
+
+#editor {
+  box-sizing: border-box;
+  width: 99%;
+  min-height: 200px;
+  margin-bottom: -5px;
+  resize: vertical;
+  outline: none;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 0.875rem;
+  background-color: #c0d8d8;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
+
+.hidden-preview {
+  display: none;
+}
+
+.hidden-editor {
+  display: none;
+}
+
+.full-editor textarea {
+  height: 99vh;
+}
+
+.full-preview {
+  height: 99vh;
+}
+
+.content-preview {
+  max-width: 800px;
+  margin: 1.25rem auto;
+  min-height: 200px;
+  overflow-wrap: break-word;
+  padding: 0 1rem;
+}
+
+#preview {
+  box-sizing: border-box;
+  width: 99%;
+  min-height: 200px;
+  margin-bottom: -5px;
+  resize: vertical;
+  outline: none;
+  padding: 0 15px;
+  padding-top: 5px;
+  font-size: 0.875rem;
+  background-color: #c0d8d8;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#preview h1 {
+  border-bottom: 2px solid #224b4b;
+}
+#preview h2 {
+  border-bottom: 1px solid #224b4b;
+}
+#preview pre {
+  display: block;
+  overflow: auto;
+  background-color: white;
+  padding: 5px;
+  line-height: 1.2;
+}
+#preview blockquote {
+  border-left: 3px solid #224b4b;
+  color: #224b4b;
+  padding-left: 5px;
+  margin-left: 25px;
+}
+#preview table {
+  border-collapse: collapse;
+}
+#preview code {
+  background: white;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+#preview a {
+  color: #0366d6;
+  text-decoration: underline;
+}
+#preview img {
+  display: block;
+  max-width: 90%;
+  margin: 2rem auto;
+}
+#preview th, #preview td {
+  border: 2px solid #224b4b;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/*# sourceMappingURL=App.css.map */
